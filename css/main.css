@@ -327,4 +327,40 @@ body.modal-open {
   padding-top: 94px;
   padding-bottom: 94px;
   background: var(--heder-bg-color);
+}
+
+.about-list {
+  text-align: center;
+}
+
+.about-text {
+  text-align: center;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.hero-nav-item {
+  text-align: center;
+}
+
+.hero-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-btn {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.hero-link {
+  text-align: center;
+}
+
+.service-item {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
