@@ -1,0 +1,66 @@
+.header-nav {
+    position: relative;
+}
+
+
+
+
+
+
+.btn-menu {
+    display: inline-flex;
+    margin: 0;
+    padding: 2px;
+    border: solid 0.5px tomato;
+    background-color: transparent;
+
+    
+    
+    
+    
+    .icon-close {
+        display: none;
+    }
+
+    &.is-open .icon-close{
+        display: block;
+    }
+
+    &.is-open .icon-menu {
+        display: none;
+    }
+
+  
+}
+
+
+// .btn-menu .icon-close {
+//     display: none;
+// }
+
+// .btn-menu.is-open .icon-close {
+//     display: block;
+// }
+
+// .btn-menu.is-open .icon-menu {
+//     display: none;
+// }
+
+
+.menu-container {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+padding: 10px;
+border: solid 1px tomato;
+
+
+text-align: center;
+font-size: 20px;
+
+&.is-open {
+    display: block;
+}
+}
