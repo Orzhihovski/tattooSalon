@@ -7,7 +7,7 @@
 
 
 
-.btn-menu {
+.menu-button {
     display: inline-flex;
     margin: 0;
     padding: 2px;
@@ -15,7 +15,9 @@
     background-color: transparent;
 
     
-    
+    & {
+            cursor: pointer;
+        }
     
     
     .icon-close {
@@ -25,13 +27,21 @@
     &.is-open .icon-close{
         display: block;
     }
-
-    &.is-open .icon-menu {
-        display: none;
-    }
+          &.is-open .icon-menu {
+              display: none;
+          }
 
   
+  
 }
+
+
+        
+    
+       
+
+
+
 
 
 // .btn-menu .icon-close {
@@ -53,6 +63,7 @@
     top: 100%;
     left: 0;
     width: 100%;
+    height: 100vh;
 padding: 10px;
 border: solid 1px tomato;
 

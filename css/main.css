@@ -1,3 +1,15 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: rgb(173, 168, 168);
+  --main-text-color: #757575;
+  --opacity-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #f321e5;
+  --heder-bg-color: #ffffff;
+  --bacik-bg-color: #e5e5e5;
+  --second-bg-color: #2f303a;
+  --tomato-outline: tomato;
+}
+
 /*! modern-normalize v2.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -369,7 +381,7 @@ body.modal-open {
   position: relative;
 }
 
-.btn-menu {
+.menu-button {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -378,13 +390,16 @@ body.modal-open {
   border: solid 0.5px tomato;
   background-color: transparent;
 }
-.btn-menu .icon-close {
+.menu-button {
+  cursor: pointer;
+}
+.menu-button .icon-close {
   display: none;
 }
-.btn-menu.is-open .icon-close {
+.menu-button.is-open .icon-close {
   display: block;
 }
-.btn-menu.is-open .icon-menu {
+.menu-button.is-open .icon-menu {
   display: none;
 }
 
@@ -394,6 +409,7 @@ body.modal-open {
   top: 100%;
   left: 0;
   width: 100%;
+  height: 100vh;
   padding: 10px;
   border: solid 1px tomato;
   text-align: center;
